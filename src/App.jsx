@@ -149,8 +149,9 @@ const css = `
   .f-tag{font-size:13px;color:rgba(255,255,255,.4);line-height:1.7;max-width:260px;margin-bottom:16px}
   .f-contact{font-size:13px;color:rgba(255,255,255,.45);line-height:1.8}
   .f-col-t{font-family:var(--F);font-size:10px;font-weight:700;letter-spacing:.12em;color:var(--gold);text-transform:uppercase;margin-bottom:14px}
-  .f-link{display:block;color:rgba(255,255,255,.48);font-size:13px;margin-bottom:9px;cursor:pointer;transition:color .2s}
-  .f-link:hover{color:#fff}
+  .f-link{display:block;background:none;border:none;padding:0;text-align:left;width:auto;color:rgba(255,255,255,.48);font-size:13px;margin-bottom:9px;cursor:pointer;transition:color .2s}
+  /* links are muted white normally; hover turns gold so the text itself becomes gold */
+  .f-link:hover{color:var(--gold)}
   .footer-bot{border-top:1px solid rgba(255,255,255,.07);padding-top:20px;display:flex;justify-content:space-between;align-items:center}
   .f-copy{font-size:11px;color:rgba(255,255,255,.28)}
 
